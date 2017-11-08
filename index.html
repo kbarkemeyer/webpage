@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karen Barkemeyer portfolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery-3.1.0.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/tooltip.js"></script>
+  </head>
+  <body>
+
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" data-toggle="tooltip" data-placement="" title="karenbarkemeyer@gmail.com">KaBa</a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a href="https://github.com/kbarkemeyer/udacity-fullstack-nano.git" target="_blank">Github</a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/karen-barkemeyer-06328739/" target="_blank">LinkedIn</a>
+            </li>
+          </ul>
+        </div> 
+      </div>
+    </nav>
+
+    <div class="container">
+
+      <header class="row">
+        <div class="col-md-4 col-xs-3">
+          <h1 class="title-icon">&#128026;</h1>
+        </div>
+        <div class="col-md-8 text-right text-uppercase">
+          <h1 class="title-super text-thin">Karen Barkemeyer</h1>
+          <h4 data-toggle="tooltip" data-placement="" title="full stack developer">Full Stack Developer</h4>
+        </div>
+        <div class="col-md-12">
+          <hr>
+        </div>
+      </header>
+
+      <main class="row">
+        <div class="col-md-12">
+          <img src="images/ocean.JPG" alt="ocean" class="img-responsive img-format">
+        </div>
+      
+        <div class="col-md-12">
+          <h2 class="text-muted">Featured Work</h2>
+        </div>
+        
+        <article>
+          <div class="col-md-3 col-xs-6 text-center">
+            <img src="images/pages.jpg" class="img-responsive img-format" alt="books" data-toggle="modal" data-target="#image3">
+            <h3 class="text-uppercase">BookApp</h3>
+            <p><a href="https://karenbarkemeyer.com/bookapp" target="_blank">BookApp</a></p>
+          </div>
+        </article>
+        <article>
+          <div class="col-md-3 col-xs-6 text-center">
+            <img src="images/google_map_of_portland.jpg" class="img-responsive img-format" alt="portland map" data-toggle="modal" data-target="#image4">
+            <h3>Map Project</h3>
+            <p><a href="http://karenbarkemeyer.com/gf_pdx" target="_blank">Neighboorhood Map</a></p>
+          </div>
+        </article>
+        <article>
+          <div class="col-md-3 col-xs-6 text-center">
+            <img src="images/tomatoes.jpg" class="img-responsive img-format" alt="tomatoes" data-toggle="modal" data-target="#image1">
+            <h3 class="text-uppercase">Movies</h3>
+            <p><a href="https://kbarkemeyer.github.io/fresh-tomatoes-movie-trailers/" target="_blank">Favorite Movies</a></p>
+          </div>
+        </article>
+        <article>
+          <div class="col-md-3 col-xs-6 text-center">
+            <img src="images/Capture.JPG" class="img-responsive img-format" alt="code" data-toggle="modal" data-target="#image2">
+            <h3 class="text-uppercase">Full Stack</h3>
+            <p><a href="https://github.com/kbarkemeyer/udacity-fullstack-nano.git" target="_blank">Github</a></p>
+          </div>
+        </article>
+        
+      
+        <!-- Modal -->
+        <div class="modal fade" id="image1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title text-center" id="myModalLabel">Fresh Tomatoes Movie Trailers</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>Website with a preview sample movies and trailers.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="image2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title text-center" id="myModalLabel">Full Stack Developer</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>Full Stack Developer Certificate -- Udacity. Check out my code at Github!</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="image3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title text-center" id="myModalLabel">Book Recommendation App</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>A content management system using the Flask framework in Python. Implemented authentication via OAuth2. Data is stored within a PostgreSQL database. The app features functionality to add, edit and delete book bins with book recommendation to be shared amongst users. </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="image4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title text-center" id="myModalLabel">Education</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p> Single-page web application using the Knockout framework with an implemention Google Maps and Zomato APIs. App displays a Google Map of the Portland area and various restaurant markes. Users can search restaurants and, when selected, additional information about the particular restaurant is presented.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </main>
+
+     
+    <footer class="row text-center">
+      <div class="col-md-12">
+        <p class="text-muted"> &#169; 2017 Karen Barkemeyer</p>
+      </div>
+    </footer>
+
+  </div>
+
+  </body>
+</html>
